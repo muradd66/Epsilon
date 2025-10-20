@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.kurs{
+    font-family: "Roboto Slab", serif;
+}
+.allphoto{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+}
+.photon{
+    width: 399px;
+    height: 328px;
+}
