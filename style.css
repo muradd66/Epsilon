@@ -2,15 +2,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
 *{
     font-family: "Roboto Slab", serif;
+    margin: 0px;
+    padding: 0px;
 }
 .murad-container{
     background-color: #9DC9C8;
     width: 1440px;
     height: 780px;
+    margin-top: 5409px;
 }
 .murad-p1{
+    display: inline-block;
     font-size: 55px;
+    margin-left: 122px;
+    margin-top: 130px;
 }
 .murad-p2{
     font-size: 25px;
+    margin-left: 122px;
+    margin-top: 65px;
+}
+.murad-price{
+    margin-left: 122px;
+    font-size: 80px;
+}
+.murad-heading{
+    font-size: 25px;
+    width: 294px;
+}
+.murad-text1{
+    width: 294px;
+    margin-top: 10px;
+}
+.murad-part{
+    display: inline-block;
+    margin-left: 122px;
+    margin-top: 65px;
+}
+.murad-heading2{
+    
+    font-size: 25px;
+}
+.murad-text2{
+    margin-top: 10px;
+    width: 294px;
+}
+.murad-part2{
+    display: inline-block;
+    margin-left: 70px;
+}
+.footer{
+    height: 390px;
+    width: 1440px;
+    background-color: #000000;
 }
