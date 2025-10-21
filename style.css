@@ -1,112 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
 *{
-    font-family: "Roboto", serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.murad-container{
+.container-m{
     background-color: #9DC9C8;
-    width: 1440px;
+    width: 100%;
     height: 780px;
     margin-top: 5409px;
 }
-.murad-p1{
+.text-m1{
+    font-family: "Roboto Slab", serif;
     display: inline-block;
     font-size: 55px;
     margin-left: 122px;
     margin-top: 130px;
 }
-.murad-p2{
+.text-m2{
+    font-family: "Roboto", serif;
     font-size: 25px;
     margin-left: 122px;
-    margin-top: 65px;
+    margin-top: 50px;
 }
-.murad-price{
+.price-m{
+    margin: 0px;
+    font-family: "Roboto", serif;
     margin-left: 122px;
+    margin-top: -5px;
     font-size: 80px;
 }
-.murad-heading{
+.heading-m1{
+    font-family: "Roboto", serif;
     font-size: 25px;
     width: 294px;
 }
-.murad-text1{
+.text-m3{
+    font-family: "Roboto", serif;
+    font-size: 18px;
     width: 294px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
-.murad-part{
+.part-m1{
+    font-family: "Roboto", serif;
     display: inline-block;
     margin-left: 122px;
-    margin-top: 65px;
+    margin-top: 60px;
 }
-.murad-heading2{
-    
+.heading-m2{
     font-size: 25px;
 }
-.murad-text2{
-    margin-top: 10px;
+.text-m4{
+    font-size: 18px;
+    margin-top: 5px;
     width: 294px;
 }
-.murad-part2{
+.part-m2{
+    font-family: "Roboto", serif;
     display: inline-block;
     margin-left: 70px;
+    margin-top: 40px;
 }
+
+
 .footer{
+    width: 100%;
     height: 390px;
-    width: 1440px;
+    width:  100%;
     background-color: #000000;
     position: relative;
 }
-.footer-img{
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
     margin-left: 122px;
-    margin-top: 50px;
-    width: 115px;
-    height: 68px;
+    padding: 50px 0px;
 }
-.footer-insta{
-    margin-left: 122px;
+
+.footer-left-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+/* .footer-img{
+    margin: 0px;
+} */
+
+
+.footer-social{
+    display: flex;
     margin-top: 30px;
+    gap: 20px;
+}
+
+.footer-insta{
+    margin: 0px;
 }
 .footer-fb{
-    margin-left: 18px;
-    margin-top: 30px;
+    margin: 0px;
 }
 .footer-wk{
-    margin-left: 21px;
-    margin-top: 28px;
+    margin: 0px;
 }
 .footer-wp{
-    margin-left: 25px;
-    margin-top: 29px;
+    margin: 0px;
 }
-.footer-phone{
-    position: absolute;
-    top: 54px;
-    left: 976px;
+
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 185px;
 }
-.footer-mail{
-    position: absolute;
-    left: 976px;
-    top: 106px;
+
+
+.footer-item{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 25px;
+
 }
-.footer-number{
-    position: absolute;
-    left: 1025px;
-    top: 59px;
+
+ .footer-number{
+    margin-left: 20px;
     font-size: 25px;
     color: white;
 }
+
 .footer-gmail{
-    position: absolute;
+    margin-left: 20px;
     color: white;
     font-size: 25px;
-    top: 102px;
-    left: 1025px;
 }
+
+
+
+
 .footer-end{
     position: absolute;
     color: white;
     font-size: 18px;
-    left: 122px;
+    left: 175px;
     top: 327px;
 }
+
+
+
+
+
+
+
+
