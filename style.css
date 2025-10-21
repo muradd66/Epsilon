@@ -10,14 +10,6 @@
 
    
 }
-.thrid{
-    /*padding-left: 80px;*/
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: "Roboto", sans-serif;
-
-   
-}
 
 .firstbsq{
     width: 667px;
@@ -29,18 +21,32 @@
    
   
 }
+
 .prqf1{
     padding-top: 100px;
-    margin-bottom: 100px;
+
+    
+}
+.list{
+    font-size: 24px;
+    line-height: 150%;
+    width: 662px;
+    height: 374px;
+    font-family: " Roboto ", sans-serif;
+    padding-top: 20px;
+
 }
 .pmetn{
     font-size: 18px;
     line-height: 130%;
     margin-top: -30px;
+    font-family: " Roboto ", sans-serif;
+    padding-top: 10px;
     
 }
 .inside{
  margin-bottom: 10px;
+ 
 }
 
 
@@ -51,6 +57,7 @@
  font-weight: bold;
  line-height: 130%;
  color: #1E4681;
+ font-family: " Roboto ", sans-serif;
  
 }
 .smr2{
@@ -60,6 +67,7 @@
  font-weight: bold;
  line-height: 130%;
  color: #1E4681;
+ font-family: " Roboto ", sans-serif;
 }
 .smr3{
  width: 150px;
@@ -68,6 +76,7 @@
  font-weight: bold;
  line-height: 130%;
  color: #1E4681;
+ font-family: " Roboto ", sans-serif;
 }
 ul{
     width: 662px;
@@ -111,14 +120,16 @@ ul{
     width: 700px;
     height: 200px;
     line-height: 150%;
+    font-family: " Roboto ", sans-serif;
 }
 .smr4{
-    width: 453px;
-    height: 59px;
+    width: 353px;
+    height: 32px;
     font-size: 30px;
     font-weight: bold;
     line-height: 101.4%;
     font-family: "Roboto Slab", sans-serif;
+     margin-top: 40px;
    
 }
 .imgpc{
@@ -127,5 +138,9 @@ ul{
     width: 60px;
     height: 60px;
     margin-top:- 30px ;
+    gap: 30px;
     
+}
+.pctrs{
+    padding-top: -45px;
 }
