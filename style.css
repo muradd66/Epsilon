@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 body {
-    padding: 0px 50px 0px 50px;
     font-family: "Roboto", sans-serif;
 
+}
+
+main {
+    padding-left: 80px;
 }
 
 
 .header {
     width: 112px;
     height: 66px;
+    padding-left: 80px;
+
 }
 
 .globe {
@@ -43,7 +49,7 @@ body {
 .h1-first-1 {
     font-size: 80px;
     width: 628px;
-  font-family: "Roboto Slab", serif;
+    font-family: "Roboto Slab", serif;
 
 
 }
@@ -62,27 +68,83 @@ body {
 .rejissor {
     width: 304px;
     height: 356px;
-    padding-right: 100px;
+    padding-right: 150px;
 }
-.p-first-2{
+
+.p-first-2 {
     width: 430px;
     height: 128px;
     font-size: 25px;
     font-family: "Roboto Slab", serif;
-   margin: auto;
+    margin: auto;
 }
-.p-first-3{
+
+.p-first-3 {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-     display: flex;
-     justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
-.div-first-4{
-background-color: #1E4681;
-width: 483px;
-height: 200px;
-padding: 10px;
-margin: auto;
-color: white;
 
+.div-first-4 {
+    background-color: #1E4681;
+    width: 483px;
+    height: 200px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+
+}
+
+.h1-second-1 {
+    font-size: 50px;
+    font-family: "Roboto Slab", serif;
+}
+
+.div-second-2 {
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+    padding-right: 0px;
+}
+
+.kameraman {
+    width: 366px;
+    height: 344px;
+    padding-left: 150px;
+
+}
+
+.div-second-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.kameraman2 {
+    width: 232px;
+    height: 203px;
+    padding-top: 50px;
+}
+
+.div-second-5 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.h2-second-1 {
+    font-size: 25px;
+}
+
+.p-second-2 {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+}
+
+.div-second-3 {
+    display: flex;
+    align-items: center;
 }
