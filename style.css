@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
 *{
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     margin: 0px;
     padding: 0px;
 }
@@ -55,4 +55,58 @@
     height: 390px;
     width: 1440px;
     background-color: #000000;
+    position: relative;
+}
+.footer-img{
+    margin-left: 122px;
+    margin-top: 50px;
+    width: 115px;
+    height: 68px;
+}
+.footer-insta{
+    margin-left: 122px;
+    margin-top: 30px;
+}
+.footer-fb{
+    margin-left: 18px;
+    margin-top: 30px;
+}
+.footer-wk{
+    margin-left: 21px;
+    margin-top: 28px;
+}
+.footer-wp{
+    margin-left: 25px;
+    margin-top: 29px;
+}
+.footer-phone{
+    position: absolute;
+    top: 54px;
+    left: 976px;
+}
+.footer-mail{
+    position: absolute;
+    left: 976px;
+    top: 106px;
+}
+.footer-number{
+    position: absolute;
+    left: 1025px;
+    top: 59px;
+    font-size: 25px;
+    color: white;
+}
+.footer-gmail{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 102px;
+    left: 1025px;
+}
+.footer-end{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    left: 122px;
+    top: 327px;
 }
