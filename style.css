@@ -1,34 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+
 
 
 .prqrf{
     display: flex;
+    gap: 200px;
+    padding-top: 40px;
+
+   
 }
+.thrid{
+    /*padding-left: 80px;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+
+   
+}
+
 .firstbsq{
     width: 667px;
     height: 93px;
     font-size: 55px;
     font-weight: bold;
     line-height: 101.4%;
-    font-family: "Roboto Slab", sans-serif;
+    font-family: " Roboto Slab", sans-serif;
+   
+  
 }
-p{
+.prqf1{
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.pmetn{
     font-size: 18px;
     line-height: 130%;
+    margin-top: -30px;
+    
 }
-h3{
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 130%;
-    color: #1E4681;
+.inside{
+ margin-bottom: 10px;
 }
-.smr1{
 
+
+.smr1{
+ width: 150px;
+ height: 39px;
+ font-size: 25px;
+ font-weight: bold;
+ line-height: 130%;
+ color: #1E4681;
+ 
 }
 .smr2{
-
+ width: 214px ;
+ height: 39px;
+ font-size: 25px;
+ font-weight: bold;
+ line-height: 130%;
+ color: #1E4681;
 }
 .smr3{
+ width: 150px;
+ height: 39px;
+ font-size: 25px;
+ font-weight: bold;
+ line-height: 130%;
+ color: #1E4681;
+}
+ul{
+    width: 662px;
+    height: 374px;
+    font-size: 24px;
+    line-height: 150%;
+}
 
+
+.fifth{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 100vh;
+}
+.skyy{
+    border: 1px solid white;
+    background-color: white;
+    padding-left: 5rem;
+    width: 50rem;
+    height: 30rem;
+    margin-left: 5rem;
+    border-radius: 40px;
+    padding-top: 20px;
+    
+
+}
+.krys{
+    width: 987px;
+    height: 93px;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 101.4%;
+    font-family: "Roboto Slab", sans-serif;
+    padding-left: 80px;
+    padding-top: 50px;
+   
+   
+}
+.pmetn1{
+    font-size: 20px;
+    width: 700px;
+    height: 200px;
+    line-height: 150%;
+}
+.smr4{
+    width: 453px;
+    height: 59px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 101.4%;
+    font-family: "Roboto Slab", sans-serif;
+   
+}
+.imgpc{
+    display: flex;
+    justify-content: space-between; 
+    width: 60px;
+    height: 60px;
+    margin-top:- 30px ;
+    
 }
