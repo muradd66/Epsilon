@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.thrid{
+    padding-left: 80px;
+}
 
 .prqrf{
     display: flex;
@@ -11,13 +18,14 @@
    
 }
 
-.firstbsq{
+.smheader{
     width: 667px;
     height: 93px;
     font-size: 55px;
     font-weight: bold;
     line-height: 101.4%;
-    font-family: " Roboto Slab", sans-serif;
+    font-family:"Roboto Slab", sans-serif;
+   
    
   
 }
@@ -34,6 +42,8 @@
     height: 374px;
     font-family: " Roboto ", sans-serif;
     padding-top: 20px;
+    margin-bottom: 35px;
+   
 
 }
 .pmetn{
@@ -41,8 +51,7 @@
     line-height: 130%;
     margin-top: -30px;
     font-family: " Roboto ", sans-serif;
-    padding-top: 10px;
-    
+    padding-top: 30px;
 }
 .inside{
  margin-bottom: 10px;
@@ -59,6 +68,7 @@
  color: #1E4681;
  font-family: " Roboto ", sans-serif;
  
+ 
 }
 .smr2{
  width: 214px ;
@@ -68,6 +78,8 @@
  line-height: 130%;
  color: #1E4681;
  font-family: " Roboto ", sans-serif;
+
+ 
 }
 .smr3{
  width: 150px;
@@ -77,30 +89,29 @@
  line-height: 130%;
  color: #1E4681;
  font-family: " Roboto ", sans-serif;
+ 
 }
-ul{
-    width: 662px;
-    height: 374px;
-    font-size: 24px;
-    line-height: 150%;
-}
+
 
 
 .fifth{
     background-color: #EEEEEE;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    margin-top:80px;
 }
+
 .skyy{
     border: 1px solid white;
     background-color: white;
-    padding-left: 5rem;
-    width: 50rem;
-    height: 30rem;
-    margin-left: 5rem;
+    width: 791px;
+    height: 451px;
+    padding-left: 40px;
+    margin-left: 90px;
     border-radius: 40px;
-    padding-top: 20px;
-    
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 100px;
 
 }
 .krys{
@@ -110,8 +121,8 @@ ul{
     font-weight: bold;
     line-height: 101.4%;
     font-family: "Roboto Slab", sans-serif;
-    padding-left: 80px;
-    padding-top: 50px;
+    padding-left: 90px;
+    padding-top: 70px;
    
    
 }
@@ -124,7 +135,7 @@ ul{
 }
 .smr4{
     width: 353px;
-    height: 32px;
+    height: 59px;
     font-size: 30px;
     font-weight: bold;
     line-height: 101.4%;
@@ -132,6 +143,7 @@ ul{
      margin-top: 40px;
    
 }
+
 .imgpc{
     display: flex;
     justify-content: space-between; 
@@ -139,8 +151,64 @@ ul{
     height: 60px;
     margin-top:- 30px ;
     gap: 30px;
+   
     
 }
 .pctrs{
-    padding-top: -45px;
+    width: 32px;
+    height: 31px;
+   
+    
+}
+.woman{
+    width: 190px;
+    height: 169px;
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px){
+
+.smheader{
+    width: 386.3px;
+    height: 53.86px;
+    font-size: 32px;
+
+}
+.smr1{
+    width: 86.88px;
+    height: 22.59px;
+    font-size: 15px;
+}
+.smr2{
+    width: 123.94px ;
+    height: 22.59px;
+    font-size: 15px;
+
+}
+.smr3{
+    width: 86.88px;
+    height: 22.59px;
+    font-size: 15px;
+}
+.pmetn{
+    font-size: 11px;
+}
+.pmetn0{
+    width: 153px;
+    height: 42px;
+}
+.pmetn2{
+    width: 172px;
+    height: 63px;
+}
+.pmetn3{
+    width: 141.9px;
+    height: 22.59px;
+}
+.list{
+    width: 383.41px;
+    height: 216.61px;
+    font-size: 14px;
+}
+
 }
