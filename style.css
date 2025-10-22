@@ -85,10 +85,6 @@
     margin-left: 60px;
 }
 
-/* .footer-img{
-    margin: 0px;
-} */
-
 
 .footer-social{
     display: flex;
@@ -96,17 +92,29 @@
     gap: 20px;
 }
 
+.footer-img{
+    width: 115px;
+    height: 68px;
+}
 .footer-insta{
     margin: 0px;
+    width: 33px;
+    height: 33px;
 }
 .footer-fb{
     margin: 0px;
+    width: 32px;
+    height: 32px;
 }
 .footer-wk{
     margin: 0px;
+    height: 35px;
+    width: 35px;
 }
 .footer-wp{
     margin: 0px;
+    width: 34px;
+    height: 34px;
 }
 
 
