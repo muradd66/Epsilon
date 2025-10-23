@@ -12,8 +12,8 @@
 
 .prqrf{
     display: flex;
-    gap: 200px;
-    padding-top: 40px;
+    gap: 125px;
+    padding-top: 60px;
 
    
 }
@@ -27,6 +27,18 @@
     font-family:"Roboto Slab", sans-serif;
    
    
+  
+}
+
+.basliq{
+    margin-top: 100px;
+}
+.basliq1{
+    width: 905px;
+    height: 93px;
+    margin-top: 250px;
+ 
+    
   
 }
 
@@ -172,7 +184,10 @@
     width: 386.3px;
     height: 53.86px;
     font-size: 32px;
-
+}
+.basliq1{
+    width: 524.15px;
+    height: 53.86px;
 }
 .smr1{
     width: 86.88px;
