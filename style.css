@@ -7,74 +7,65 @@
     box-sizing: border-box;
 }
 .thrid{
-    padding-left: 80px;
+       padding-left: 4.50vw;
 }
 
 .prqrf{
     display: flex;
-    gap: 125px;
-    padding-top: 60px;
+    gap: 8.6vw;
+    padding-top: 3.3vw;
 
    
 }
 
 .smheader{
-    width: 667px;
-    height: 93px;
-    font-size: 55px;
+    width: 34.7vw;
+    height: 4.84vw;
+    font-size: 3vw;
     font-weight: bold;
     line-height: 101.4%;
     font-family:"Roboto Slab", sans-serif;
    
-   
-  
+
 }
 
 .basliq{
-    margin-top: 100px;
+    margin-top: 5.35vw;
 }
-.basliq1{
-    width: 905px;
-    height: 93px;
-    margin-top: 250px;
- 
-    
-  
-}
+
 
 .prqf1{
-    padding-top: 100px;
+   padding-top: 5.21vw;
 
     
 }
 .list{
-    font-size: 24px;
+    font-size: 2vw;
     line-height: 150%;
-    width: 662px;
-    height: 374px;
+    width: 60vw;
+    height: 19.48vw;
     font-family: " Roboto ", sans-serif;
-    padding-top: 20px;
-    margin-bottom: 35px;
+    padding-top: 1.04vw;
+    margin-bottom: 1.82vw;
    
 
 }
 .pmetn{
-    font-size: 18px;
+    font-size: 1.7vw;
     line-height: 130%;
-    margin-top: -30px;
     font-family: " Roboto ", sans-serif;
-    padding-top: 30px;
+    padding-top: 1.6vw;
 }
 .inside{
- margin-bottom: 10px;
+    margin-bottom: 0.52vw;
  
 }
 
 
-.smr1{
- width: 150px;
- height: 39px;
- font-size: 25px;
+.stitle1{
+ width: 7.81vw;
+ height: 2.03vw;
+ font-size: 2vw;
  font-weight: bold;
  line-height: 130%;
  color: #1E4681;
@@ -82,10 +73,10 @@
  
  
 }
-.smr2{
- width: 214px ;
- height: 39px;
- font-size: 25px;
+.stitle2{
+ width: 20vw;
+ height: 2.03vw;
+ font-size: 2vw;
  font-weight: bold;
  line-height: 130%;
  color: #1E4681;
@@ -93,10 +84,10 @@
 
  
 }
-.smr3{
- width: 150px;
- height: 39px;
- font-size: 25px;
+.stitle3{
+ width: 7.81vw;
+ height: 2.03vw;
+ font-size: 2vw;
  font-weight: bold;
  line-height: 130%;
  color: #1E4681;
@@ -106,124 +97,44 @@
 
 
 
-.fifth{
-    background-color: #EEEEEE;
-    width: 100%;
-    height: 100vh;
-    margin-top:80px;
-}
 
-.skyy{
-    border: 1px solid white;
-    background-color: white;
-    width: 791px;
-    height: 451px;
-    padding-left: 40px;
-    margin-left: 90px;
-    border-radius: 40px;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    margin-top: 100px;
 
-}
-.krys{
-    width: 987px;
-    height: 93px;
-    font-size: 55px;
-    font-weight: bold;
-    line-height: 101.4%;
-    font-family: "Roboto Slab", sans-serif;
-    padding-left: 90px;
-    padding-top: 70px;
+@media (min-width: 300px) and (max-width: 600px){
    
-   
-}
-.pmetn1{
-    font-size: 20px;
-    width: 700px;
-    height: 200px;
-    line-height: 150%;
-    font-family: " Roboto ", sans-serif;
-}
-.smr4{
-    width: 353px;
-    height: 59px;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 101.4%;
-    font-family: "Roboto Slab", sans-serif;
-     margin-top: 40px;
-   
-}
-
-.imgpc{
-    display: flex;
-    justify-content: space-between; 
-    width: 60px;
-    height: 60px;
-    margin-top:- 30px ;
-    gap: 30px;
-   
+    .prqrf{
+    display: block;
+    margin-bottom: 5vw;
+    padding-top: 2vw;
+ }
+ .thrid{
+    padding-left: 7vw;
+ }
     
-}
-.pctrs{
-    width: 32px;
-    height: 31px;
-   
+    .basliq{
+      margin-top: 2vw;
+ }
     
+    .pmetn{
+       padding-bottom: 4vw;
+       font-size: 2.5vw;
+       height: 2vw;
+       padding-top: 2vw;
+       margin-bottom: 8vw;
+ }
+    .stitle1{
+    font-size: 3vw;
+ }
+    .stitle2{
+    font-size: 3vw;
+    width: 30vw;
+ }
+    .stitle3{
+    font-size: 3vw;
+ }
+    .list{
+    font-size: 2.5vw;
 }
-.woman{
-    width: 190px;
-    height: 169px;
+    .smheader{
+    font-size: 4vw;
 }
-
-
-@media (min-width: 601px) and (max-width: 1024px){
-
-.smheader{
-    width: 386.3px;
-    height: 53.86px;
-    font-size: 32px;
-}
-.basliq1{
-    width: 524.15px;
-    height: 53.86px;
-}
-.smr1{
-    width: 86.88px;
-    height: 22.59px;
-    font-size: 15px;
-}
-.smr2{
-    width: 123.94px ;
-    height: 22.59px;
-    font-size: 15px;
-
-}
-.smr3{
-    width: 86.88px;
-    height: 22.59px;
-    font-size: 15px;
-}
-.pmetn{
-    font-size: 11px;
-}
-.pmetn0{
-    width: 153px;
-    height: 42px;
-}
-.pmetn2{
-    width: 172px;
-    height: 63px;
-}
-.pmetn3{
-    width: 141.9px;
-    height: 22.59px;
-}
-.list{
-    width: 383.41px;
-    height: 216.61px;
-    font-size: 14px;
-}
-
 }
