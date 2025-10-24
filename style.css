@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fifth{
+    background-color: #EEEEEE;
+    width: 100vw;
+    width: 100%;
+    height:56.25vw;
+   
+}
+.skyy{
+    border: 0.052vw  solid white;
+    background-color: white;
+    width: 65vw;
+    height: 35vw;
+    padding-left: 2.08vw;
+    margin-left: 4.69vw;
+    border-radius: 2.08vw;
+    padding-top: 2.08vw;
+    padding-bottom: 3.13vw;
+    margin-top: 5.21vw;
+    margin-right: 3vw;
+
+}
+.krys{
+    width: 100vw;
+    height: 4.84vw;
+    font-size: 2.86vw;
+    font-weight: bold;
+    line-height: 101.4%;
+    font-family: "Roboto Slab", sans-serif;
+    padding-left: 7vw;
+    padding-top: 4vw;
+ 
+   
+   
+}
+.pmetn1{
+    font-size: 1.7vw;
+    width: 93vw;
+    height: 10.42vw;
+    line-height: 150%;
+    font-family: " Roboto ", sans-serif;
+}
+.smr4{
+    width: 18.39vw;
+    height: 3.07vw; 
+    font-size: 1.56vw;
+    font-weight: bold;
+    line-height: 101.4%;
+    font-family: "Roboto Slab", sans-serif;
+     margin-top: 2.08vw;
+   
+}
+
+.imgpc{
+    display: flex;
+    justify-content: space-between; 
+    width: 3.13vw;
+    height: 3.13vw;
+    margin-top: 7vw;
+    gap: 1.56vw;
+   
+    
+}
+.pctrfcb{
+   width: 1.67vw;
+   height: 1.61vw;
+   
+}
+.woman{
+    width: 9.90vw;
+    height: 8.80vw;
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .fifth{
+        width: 100vw;
+        height: 60vw;
+    }
+    .skyy{
+        width: 87vw;
+    }
+    .pmetn1{
+        font-size: 2vw;
+        width: 93vw;
+    }
+    .krys{
+       width: 50vw;
+       height: 2.5vw;
+       font-size: 3vw;
+       padding-bottom: 4vw;
+       padding-top: 5vw;
+       padding-left: 7vw;
+    }
+    .pctrfcb{
+        margin-bottom: 2vw;
+        width: 4.5vw;
+        height: 4.5vw ;
+      
+    }
+    .smr4{
+     font-size: 2.5vw;
+     margin-bottom: 3vw;
+     
+    
+    }
+    .woman{
+        width: 15vw;
+        height: 15vw;
+    }
+
+}
