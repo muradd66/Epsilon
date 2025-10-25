@@ -97,6 +97,7 @@
 }
 
 .h1-second-1 {
+    width: 30vw;
     font-size: 4vw;
     font-family: "Roboto Slab", serif;
     margin-bottom: 2.60vw;
@@ -417,6 +418,7 @@
 }
 
 .headertext {
+    width: 50vw;
     font-family: "Roboto Slab", serif;
     margin-left: 9vw;
     font-size: 3.9vw;
