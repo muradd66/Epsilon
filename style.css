@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 
 
@@ -677,5 +676,303 @@
     .woman{
         width: 15vw;
         height: 15vw;
+    }
+}
+
+.container-m {
+    background-color: #9DC9C8;
+    width: 100%;
+    height: 60vw;
+}
+
+.text-m1 {
+    font-family: "Roboto Slab", serif;
+    display: inline-block;
+    font-size: 5vw;
+    margin-left: 6vw;
+    margin-top: 16vw;
+}
+
+.text-m2 {
+    font-family: "Roboto", serif;
+    font-size: 2vw;
+    margin-left: 6vw;
+    margin-top: 5vw;
+}
+
+.price-m {
+    margin: 0px;
+    font-family: "Roboto", serif;
+    margin-left: 6vw;
+    margin-top: 0vw;
+    font-size: 5vw;
+}
+
+.heading-m1 {
+    font-size: 2vw;
+}
+
+.text-m3 {
+    /* font-family: "Roboto", serif; */
+    font-size: 1.2vw;
+    width: 20.5vw;
+    margin-top: 1vw;
+}
+
+.part-m1 {
+    font-family: "Roboto", serif;
+    display: inline-block;
+    margin-left: 6vw;
+    margin-top: 6vw;
+}
+
+.heading-m2 {
+    font-size: 2vw;
+}
+
+.text-m4 {
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    width: 20.5vw;
+}
+
+.part-m2 {
+    font-family: "Roboto", serif;
+    display: inline-block;
+    margin-left: 3.4vw;
+    margin-top: 6vw;
+}
+
+
+.footer {
+    font-family: "Roboto", serif;
+    height: 30vw;
+    background-color: #000000;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6vw;
+    padding: 2.3vw 0vw;
+}
+
+.footer-left-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}
+
+
+.footer-social {
+    display: flex;
+    margin-top: 1.5vw;
+    gap: 1vw;
+}
+
+.footer-img {
+    margin-top: 1.2vw;
+    width: 7.7vw;
+    height: 5vw;
+}
+
+.footer-insta {
+    margin: 0vw;
+    width: 2.2vw;
+    height: 2.2vw;
+}
+
+.footer-fb {
+    margin: 0vw;
+    width: 2.2vw;
+    height: 2.2vw
+}
+
+.footer-wk {
+    margin: 0vw;
+    width: 2.2vw;
+    height: 2.2vw
+}
+
+.footer-wp {
+    margin: 0vw;
+    width: 2.2vw;
+    height: 2.2vw;
+}
+
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    margin-top: 1.2vw;
+}
+
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin-left: 0vw;
+    margin-bottom: 1.2vw;
+
+}
+
+.footer-number {
+    margin-left: 1vw;
+    font-size: 1.7vw;
+    color: white;
+}
+
+.footer-gmail {
+    margin-left: 1vw;
+    color: white;
+    font-size: 1.7vw;
+}
+
+
+.footer-phone {
+    width: 2vw;
+    height: 2vw;
+
+}
+
+.footer-mail {
+    width: 2vw;
+    height: 2vw;
+}
+
+.footer-end {
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    left: 8vw;
+    bottom: 2.2vw;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .container-m {
+    height: 94vw;
+    }
+    .footer{
+        height: 70vw;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer-right {
+        margin-top: 3.5vw;
+    }
+
+    .footer-left {
+        margin-left: -3vw;
+    }
+
+    .text-m1 {
+        font-size: 8vw;
+        max-width: 70vw;
+
+    }
+
+    .text-m2 {
+        font-size: 3vw;
+    }
+
+    .price-m {
+        font-size: 8vw;
+    }
+
+    .heading-m1 {
+        font-size: 2.6vw;
+    }
+
+    .text-m3 {
+        font-size: 2.3vw;
+        width: 32vw;
+    }
+
+    .heading-m2 {
+        font-size: 2.6vw;
+    }
+
+    .text-m4 {
+        font-size: 2.3vw;
+        width: 32vw;
+    }
+
+    .footer-img {
+        margin-top: 4vw;
+        width: 14vw;
+        height: 9.5vw;
+    }
+
+    .footer-social {
+        margin-top: 3vw;
+        margin-bottom: 10vw;
+    }
+
+    .footer-insta {
+        margin-top: 1vw;
+        width: 3.6vw;
+        height: 3.6vw;
+    }
+
+    .footer-fb {
+        margin-top: 1vw;
+        width: 3.6vw;
+        height: 3.6vw
+    }
+
+    .footer-wk {
+        margin-top: 1vw;
+        width: 3.5vw;
+        height: 3.5vw
+    }
+
+    .footer-wp {
+        margin-top: 1vw;
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .footer-phone {
+        width: 3vw;
+        height: 3vw;
+       
+    }
+
+    .footer-mail {
+        width: 3vw;
+        height: 3vw;
+        margin-top: 0.7vw;
+        
+    }
+
+    .footer-number {
+        margin-left: 1vw;
+        font-size: 2.7vw;
+        
+    }
+
+    .footer-gmail {
+        margin-left: 1vw;
+        font-size: 2.7vw;
+        margin-top: 0.7vw;
+        
+    }
+    .footer-end{
+        font-size: 2.6vw;
+        margin-left: -1vw;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .text-m1{
+        font-size: 4vw;
     }
 }
