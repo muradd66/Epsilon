@@ -40,6 +40,7 @@
 }
 
 .nav-first {
+    width: 40vw;
     display: flex;
     margin-top: 1.56vw;
     font-size: 1.6vw;
@@ -377,6 +378,7 @@
     }
 
     .pmetn {
+        margin-top: -1vw;
         width: 31.6vw;
         padding-bottom: 4vw;
         font-size: 1.8vw;
@@ -386,16 +388,16 @@
     }
 
     .stitle1 {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .stitle2 {
-        font-size: 3vw;
+        font-size: 2vw;
         width: 30vw;
     }
 
     .stitle3 {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .list {
@@ -403,9 +405,9 @@
     }
 
     .smheader {
-        margin-bottom: 5vw;
-        font-size: 5vw;
-        margin-top: 5vw;
+        margin-bottom: 1vw;
+        font-size: 4vw;
+        margin-top: 14vw;
         width: 60vw;
     }
 }
