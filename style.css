@@ -16,8 +16,7 @@
 .text-m1 {
     font-family: "Roboto Slab", serif;
     display: inline-block;
-    /* width: 66vw; */
-    font-size: 6vw;
+    font-size: 5vw;
     margin-left: 6vw;
     margin-top: 16vw;
 }
@@ -42,7 +41,7 @@
 }
 
 .text-m3 {
-    font-family: "Roboto", serif;
+    /* font-family: "Roboto", serif; */
     font-size: 1.2vw;
     width: 20.5vw;
     margin-top: 1vw;
@@ -74,8 +73,8 @@
 
 
 .footer {
+    font-family: "Roboto", serif;
     height: 30vw;
-    /* width:  100%; */
     background-color: #000000;
     position: relative;
 }
@@ -180,8 +179,6 @@
 }
 
 
-/* Tablet */
-
 @media screen and (min-width: 300px) and (max-width: 600px) {
     .container-m {
     height: 94vw;
@@ -195,10 +192,6 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-
-        /* margin-left: 0px;
-        padding: 30px 0; */
-
     }
 
     .footer-right {
@@ -304,5 +297,10 @@
     .footer-end{
         font-size: 2.6vw;
         margin-left: -1vw;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .text-m1{
+        font-size: 4vw;
     }
 }
