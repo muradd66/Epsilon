@@ -371,13 +371,14 @@
 }
 
 .alln {
+    margin-top: 50vw;
     width: 99vw;
     height: 100vw;
 }
 
 .headertext {
     font-family: "Roboto Slab", serif;
-    margin-left: 4vw;
+    margin-left: 6vw;
     font-size: 3.9vw;
     font-weight: 700;
 }
@@ -405,7 +406,6 @@
         "f4 f5 f6"
         "f7 f8 ."
     ;
-    /*gap: 5em;*/
     row-gap: 2em;
     column-gap: 2em;
     margin-top: 9vw;
