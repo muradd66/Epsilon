@@ -772,6 +772,7 @@
 }
 
 .text-m2 {
+    width: 50vw;
     font-family: "Roboto", serif;
     font-size: 2vw;
     margin-left: 6vw;
@@ -779,6 +780,7 @@
 }
 
 .price-m {
+    width: 50vw;
     margin: 0px;
     font-family: "Roboto", serif;
     margin-left: 6vw;
