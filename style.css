@@ -6,16 +6,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .alln {
     /* margin-top: 320vw; */
-    margin-top: 25vw;
-    width: 99vw;
-    height: 100vw;
+    margin-top: 40vw;
+    /* width: 99vw; */
+    /* height: 100vw; */
 }
 
 .headertext {
+    width: 50vw;
     font-family: "Roboto Slab", serif;
-    margin-left: 6vw;
+    margin-left: 9vw;
     font-size: 3.9vw;
     font-weight: 700;
 }
@@ -35,6 +37,7 @@
 }
 
 .allphoto {
+    margin-bottom: 5vw;
     font-family: "Roboto", sans-serif;
     width: 100%;
     display: grid;
@@ -123,6 +126,7 @@
         column-gap: 2em;
         padding: 0 3vw 0 4vw;
     }
+
     .imagen {
         width: 27.9vw;
         margin-right: 0.2vw;
@@ -131,16 +135,19 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
-    .alln{
-        margin-bottom: 170vw;
+    .alln {
+        margin-bottom: 15vw;
     }
-    
+
     .headertext {
+        width: 80vw;
+        margin-bottom: 6vw;
         margin-left: 8vw;
-        font-size: 7.8vw;
+        font-size: 6.5vw;
     }
 
     .allphoto {
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -208,408 +215,6 @@
 
     .form8 {
         margin-left: 5vw;
-    }
-}
-.fifth{
-    background-color: #EEEEEE;
-    width: 100vw;
-    width: 100%;
-    height:56.25vw;
-   
-}
-.skyy{
-    border: 0.052vw  solid white;
-    background-color: white;
-    width: 65vw;
-    height: 35vw;
-    padding-left: 2.08vw;
-    margin-left: 4.69vw;
-    border-radius: 2.08vw;
-    padding-top: 2.08vw;
-    padding-bottom: 3.13vw;
-    margin-top: 5.21vw;
-    margin-right: 3vw;
-
-}
-.krys{
-    width: 100vw;
-    height: 4.84vw;
-    font-size: 2.86vw;
-    font-weight: bold;
-    line-height: 101.4%;
-    font-family: "Roboto Slab", sans-serif;
-    padding-left: 7vw;
-    padding-top: 4vw;
- 
-   
-   
-}
-.pmetn1{
-    font-size: 1.7vw;
-    width: 93vw;
-    height: 10.42vw;
-    line-height: 150%;
-    font-family: " Roboto ", sans-serif;
-}
-.smr4{
-    width: 18.39vw;
-    height: 3.07vw; 
-    font-size: 1.56vw;
-    font-weight: bold;
-    line-height: 101.4%;
-    font-family: "Roboto Slab", sans-serif;
-     margin-top: 2.08vw;
-   
-}
-
-.imgpc{
-    display: flex;
-    justify-content: space-between; 
-    width: 3.13vw;
-    height: 3.13vw;
-    margin-top: 7vw;
-    gap: 1.56vw;
-   
-    
-}
-.pctrfcb{
-   width: 1.67vw;
-   height: 1.61vw;
-   
-}
-.woman{
-    width: 9.90vw;
-    height: 8.80vw;
-}
-
-@media (min-width: 300px) and (max-width: 600px){
-    .fifth{
-        width: 100vw;
-        height: 60vw;
-    }
-    .skyy{
-        width: 87vw;
-    }
-    .pmetn1{
-        font-size: 2vw;
-        width: 93vw;
-    }
-    .krys{
-       width: 50vw;
-       height: 2.5vw;
-       font-size: 3vw;
-       padding-bottom: 4vw;
-       padding-top: 5vw;
-       padding-left: 7vw;
-    }
-    .pctrfcb{
-        margin-bottom: 2vw;
-        width: 4.5vw;
-        height: 4.5vw ;
-      
-    }
-    .smr4{
-     font-size: 2.5vw;
-     margin-bottom: 3vw;
-     
-    
-    }
-    .woman{
-        width: 15vw;
-        height: 15vw;
-    }
-}
-
-.container-m {
-    background-color: #9DC9C8;
-    width: 100%;
-    height: 60vw;
-}
-
-.text-m1 {
-    font-family: "Roboto Slab", serif;
-    display: inline-block;
-    font-size: 5vw;
-    margin-left: 6vw;
-    margin-top: 16vw;
-}
-
-.text-m2 {
-    font-family: "Roboto", serif;
-    font-size: 2vw;
-    margin-left: 6vw;
-    margin-top: 5vw;
-}
-
-.price-m {
-    margin: 0px;
-    font-family: "Roboto", serif;
-    margin-left: 6vw;
-    margin-top: 0vw;
-    font-size: 5vw;
-}
-
-.heading-m1 {
-    font-size: 2vw;
-}
-
-.text-m3 {
-    /* font-family: "Roboto", serif; */
-    font-size: 1.2vw;
-    width: 20.5vw;
-    margin-top: 1vw;
-}
-
-.part-m1 {
-    font-family: "Roboto", serif;
-    display: inline-block;
-    margin-left: 6vw;
-    margin-top: 6vw;
-}
-
-.heading-m2 {
-    font-size: 2vw;
-}
-
-.text-m4 {
-    font-size: 1.2vw;
-    margin-top: 1vw;
-    width: 20.5vw;
-}
-
-.part-m2 {
-    font-family: "Roboto", serif;
-    display: inline-block;
-    margin-left: 3.4vw;
-    margin-top: 6vw;
-}
-
-
-.footer {
-    font-family: "Roboto", serif;
-    height: 30vw;
-    background-color: #000000;
-    position: relative;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 6vw;
-    padding: 2.3vw 0vw;
-}
-
-.footer-left-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3vw;
-}
-
-
-.footer-social {
-    display: flex;
-    margin-top: 1.5vw;
-    gap: 1vw;
-}
-
-.footer-img {
-    margin-top: 1.2vw;
-    width: 7.7vw;
-    height: 5vw;
-}
-
-.footer-insta {
-    margin: 0vw;
-    width: 2.2vw;
-    height: 2.2vw;
-}
-
-.footer-fb {
-    margin: 0vw;
-    width: 2.2vw;
-    height: 2.2vw
-}
-
-.footer-wk {
-    margin: 0vw;
-    width: 2.2vw;
-    height: 2.2vw
-}
-
-.footer-wp {
-    margin: 0vw;
-    width: 2.2vw;
-    height: 2.2vw;
-}
-
-
-.footer-right {
-    display: flex;
-    flex-direction: column;
-    margin-right: 10vw;
-    margin-top: 1.2vw;
-}
-
-
-.footer-item {
-    display: flex;
-    align-items: center;
-    margin-left: 0vw;
-    margin-bottom: 1.2vw;
-
-}
-
-.footer-number {
-    margin-left: 1vw;
-    font-size: 1.7vw;
-    color: white;
-}
-
-.footer-gmail {
-    margin-left: 1vw;
-    color: white;
-    font-size: 1.7vw;
-}
-
-
-.footer-phone {
-    width: 2vw;
-    height: 2vw;
-
-}
-
-.footer-mail {
-    width: 2vw;
-    height: 2vw;
-}
-
-.footer-end {
-    position: absolute;
-    color: white;
-    font-size: 1.3vw;
-    left: 8vw;
-    bottom: 2.2vw;
-}
-
-
-@media screen and (min-width: 300px) and (max-width: 600px) {
-    .container-m {
-    height: 94vw;
-    }
-    .footer{
-        height: 70vw;
-    }
-
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .footer-right {
-        margin-top: 3.5vw;
-    }
-
-    .footer-left {
-        margin-left: -3vw;
-    }
-
-    .text-m1 {
-        font-size: 8vw;
-        max-width: 70vw;
-
-    }
-
-    .text-m2 {
-        font-size: 3vw;
-    }
-
-    .price-m {
-        font-size: 8vw;
-    }
-
-    .heading-m1 {
-        font-size: 2.6vw;
-    }
-
-    .text-m3 {
-        font-size: 2.3vw;
-        width: 32vw;
-    }
-
-    .heading-m2 {
-        font-size: 2.6vw;
-    }
-
-    .text-m4 {
-        font-size: 2.3vw;
-        width: 32vw;
-    }
-
-    .footer-img {
-        margin-top: 4vw;
-        width: 14vw;
-        height: 9.5vw;
-    }
-
-    .footer-social {
-        margin-top: 3vw;
-        margin-bottom: 10vw;
-    }
-
-    .footer-insta {
-        margin-top: 1vw;
-        width: 3.6vw;
-        height: 3.6vw;
-    }
-
-    .footer-fb {
-        margin-top: 1vw;
-        width: 3.6vw;
-        height: 3.6vw
-    }
-
-    .footer-wk {
-        margin-top: 1vw;
-        width: 3.5vw;
-        height: 3.5vw
-    }
-
-    .footer-wp {
-        margin-top: 1vw;
-        width: 3.5vw;
-        height: 3.5vw;
-    }
-
-    .footer-phone {
-        width: 3vw;
-        height: 3vw;
-       
-    }
-
-    .footer-mail {
-        width: 3vw;
-        height: 3vw;
-        margin-top: 0.7vw;
-        
-    }
-
-    .footer-number {
-        margin-left: 1vw;
-        font-size: 2.7vw;
-        
-    }
-
-    .footer-gmail {
-        margin-left: 1vw;
-        font-size: 2.7vw;
-        margin-top: 0.7vw;
-        
-    }
-    .footer-end{
-        font-size: 2.6vw;
-        margin-left: -1vw;
     }
 }
 
