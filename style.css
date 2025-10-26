@@ -33,23 +33,28 @@
     width: 1.7vw;
     height: 2vw;
 }
+
 .date {
     width: 1.7vw;
     height: 1.7vw;
 }
+
 .nav-first {
+    width: 40vw;
     display: flex;
     margin-top: 1.56vw;
     font-size: 1.6vw;
     align-items: center;
     gap: 1.5vw;
 }
+
 .h1-first-1 {
     font-size: 4.5vw;
     width: 40vw;
     font-family: "Roboto Slab", serif;
     margin-bottom: 1.56vw;
 }
+
 .p-first-1 {
     font-size: 1.5vw;
     width: 32vw;
@@ -58,18 +63,21 @@
 .div-first-1 {
     display: flex;
 }
+
 .rejissor {
     width: 25vw;
     height: 25vw;
     margin-left: 9vw;
 
 }
+
 .p-first-2 {
     width: 25vw;
     font-size: 1.7vw;
     font-family: "Roboto Slab", serif;
     margin: auto;
 }
+
 .p-first-3 {
     font-family: "Roboto", sans-serif;
     font-size: 1.3vw;
@@ -77,45 +85,55 @@
     justify-content: flex-end;
     margin-right: 0.52vw;
 }
+
 .div-first-4 {
     background-color: #1E4681;
     width: 35vw;
     height: 16vw;
     padding: 1.7vw;
-    margin: 0px auto;
+    /* margin: 0px auto; */
+    margin-left: 14vw;
     color: white;
     margin-top: 2vw;
 }
+
 .h1-second-1 {
+    width: 30vw;
     font-size: 4vw;
     font-family: "Roboto Slab", serif;
     margin-bottom: 2.60vw;
 }
+
 .div-second-2 {
     font-size: 1.5vw;
     width: 40vw;
 
 }
+
 .kameraman {
     width: 25vw;
     height: 25vw;
     margin-left: 10vw;
 }
+
 .div-second-1 {
     display: flex;
     flex-direction: row;
 }
+
 .kameraman2 {
     width: 16vw;
     height: 14vw;
     padding-top: 2.60vw;
 }
+
 .div-second-5 {
     display: flex;
     margin-left: 5vw;
     margin-top: 2.60vw;
     gap: 5.9vw;
 }
+
 .h2-second-1 {
     font-size: 1.9vw;
 }
@@ -126,12 +144,13 @@
     font-size: 1.6vw;
 
 }
+
 .div-second-3 {
     display: flex;
     align-items: center;
 }
 
-@media (min-width: 300px) and (max-width: 601px) {
+@media (min-width: 300px) and (max-width: 600px) {
     .kameraman2 {
         display: none;
     }
@@ -144,7 +163,7 @@
     }
 
     .rejissor {
-        width: 45vw;
+        width: 33vw;
         height: 100vw;
         margin-left: -35vw;
 
@@ -164,20 +183,26 @@
 
     .p-first-1 {
         font-size: 2vw;
-        width: 40vw;
+        width: 42vw;
     }
 
     .p-first-2 {
+        margin-left: 1vw;
         width: 34vw;
         font-size: 2vw;
         font-family: "Roboto Slab", serif;
-        margin: auto;
+        /* margin: auto; */
+    }
+    .p-first-3{
+        font-size: 1.7vw;
     }
 
     .div-first-4 {
         background-color: #1E4681;
-        width: 45vw;
-        height: 16vw;
+        width: 50vw;
+        height: 18vw;
+        padding: 2vw;
+        
         margin-top: -20vw;
         margin-left: 0vw;
         color: white;
@@ -185,7 +210,7 @@
     }
 
     .h1-first-1 {
-        font-size: 11vw;
+        font-size: 9vw;
         width: 79vw;
         font-family: "Roboto Slab", serif;
         margin-bottom: 1.56vw;
@@ -198,7 +223,7 @@
     }
 
     .h1-second-1 {
-        font-size: 8vw;
+        font-size: 6vw;
         font-family: "Roboto Slab", serif;
         margin-bottom: 2.60vw;
     }
@@ -223,12 +248,14 @@
     }
 
     .h2-second-1 {
+        margin-top: 5vw;
         font-size: 2.3vw;
     }
 
     .div-second-5 {
-        margin-left: 5vw;
+        margin-left: 0vw;
         margin-top: 2.60vw;
         column-gap: 10vw;
     }
 }
+
