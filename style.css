@@ -551,13 +551,13 @@
     }
 
     .allphoto {
-
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .photon {
+        margin-right: 7vw;
         width: 56vw;
         height: 46vw;
         border: 1px solid #ccc;
